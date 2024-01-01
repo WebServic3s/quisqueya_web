@@ -103,7 +103,7 @@
     * ------------------------------------------------------ */
     const ssFinalCountdown = function() {
 
-        const finalDate = '2024/01/30';
+        const finalDate = '2024/01/31';
 
         $('.counter').countdown(finalDate)
         .on('update.countdown finish.countdown', function(event) {
